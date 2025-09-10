@@ -29,52 +29,15 @@ Two main tasks were completed:
 
 ## 🛠️ Requirements
 
-* Python ≥ 3.9
-* PyTorch
-* torchvision
-* pytorch-metric-learning
-* matplotlib
-* numpy
-* scikit-learn
-* jupyter
-
 Install dependencies with:
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
-
-## 🚀 Usage
-
-Clone the repository and open the notebooks:
-
-```bash
-git clone https://github.com/your-username/VisualSearch_Landmarks.git
-cd VisualSearch_Landmarks
-```
-
-* `task1.ipynb` – Visual search using pretrained CNN embeddings
-* `task2.ipynb` – Train custom embeddings with metric learning losses
-
-Run the notebooks in order to reproduce results.
-
----
-
 ## 📈 Results
 
 * Retrieval performance with pretrained CNN embeddings
 * Improved results after training custom embeddings with contrastive/triplet loss
-* Comparison of metrics between Task 1 and Task 2
 
----
-
-## 📂 Files
-
-* `task1.ipynb` – Implementation of Task 1
-* `task2.ipynb` – Implementation of Task 2
-* `utils.py` – Utility functions used in Task 1 and Task 2
-* `requirements.txt` – Dependencies
-* `README.md` – Project documentation
 
